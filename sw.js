@@ -1,8 +1,8 @@
-/* Service worker: deixa o curso funcionar offline. Versão bfbe8ee9 */
-const CACHE = 'basico-concursos-bfbe8ee9';
+/* Service worker: deixa o curso funcionar offline. Versão ae52fd10 */
+const CACHE = 'basico-concursos-ae52fd10';
 const ARQUIVOS = ['./', './index.html', './manifest.webmanifest',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png',
-  './icons/apple-touch-icon.png', './icons/favicon-32.png'];
+  './icon-192.png', './icon-512.png', './icon-maskable-512.png',
+  './apple-touch-icon.png', './favicon-32.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
