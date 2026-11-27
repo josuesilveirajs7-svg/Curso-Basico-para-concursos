@@ -1,7 +1,7 @@
 {
   "name": "Básico para concursos",
   "short_name": "Básico para concursos",
-  "description": "Do zero ao nível especialista, com questões ilimitadas para concursos de nível médio.",
+  "description": "Curso para concursos de nível médio: 11 matérias, do zero ao nível especialista, com questões geradas na hora.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",

@@ -1,5 +1,5 @@
-/* Service worker: deixa o curso funcionar offline. Versão ae52fd10 */
-const CACHE = 'basico-concursos-ae52fd10';
+/* Service worker: deixa o curso funcionar offline. Versão da2371c0 */
+const CACHE = 'basico-concursos-da2371c0';
 const ARQUIVOS = ['./', './index.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './icon-maskable-512.png',
   './apple-touch-icon.png', './favicon-32.png'];
